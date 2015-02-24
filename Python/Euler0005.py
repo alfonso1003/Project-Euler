@@ -20,10 +20,8 @@ while(not found):
         if x % n == 0:
             count = count + 1
 
-    if count == c:
-        print x
-        found = True
-    else:
-        x = x + 1
-
-# not solved
+            if count == c:
+                found = True
+                print x
+        else:
+            x = x + 20
