@@ -40,6 +40,13 @@ def is_prime(n):
         return False
     
 primes = [2]
-
+num = 3
 while(len(primes) < 10001):
-    for 
+    if is_prime(num):
+        primes.append(num)
+        num = num + 2
+    else:
+        num = num + 2
+        
+print primes[-1]
+    
