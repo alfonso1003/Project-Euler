@@ -152,4 +152,4 @@ for i in range(0, p1_hand_count):
     else:
         player2_win_count += 1
 
-print player1_win_count
+print player1_win_count, player2_win_count, ties
