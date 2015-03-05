@@ -28,11 +28,11 @@ def ncr(n, r):
     return n_fac / (r_fac * n_minus_r_fac)
      
 
-c = 0
+count = 0
 
 for n in range(1,101):
     for r in range(0, n + 1):
         if(ncr(n , r) > 1000000):
-            c += 1
+            count += 1
 
-print c
+print count
