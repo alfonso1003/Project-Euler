@@ -1,7 +1,5 @@
 # Read Me
 
-![alt text](https://projecteuler.net/profile/alfonso1003.png "Project Euler")
-
 ## Project Euler
 (from Wikipedia, http://en.wikipedia.org/wiki/Project_Euler)
 <br>
@@ -9,6 +7,8 @@ Project Euler (named after Leonhard Euler) is a website dedicated to a series of
 
 ## Statistics
 As of 7 May 2015, I have solved 40 problems. Only 8.469% of Project Euler users have solved at least as many problems as I have.
+
+![alt text](https://projecteuler.net/profile/alfonso1003.png "Project Euler")
 
 ## Friends
 Feel free to friend me on the Project Euler website. Here's my friend key:
