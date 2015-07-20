@@ -7,6 +7,9 @@ Considering natural numbers of the form, ab, where a, b < 100,
 what is the maximum digital sum?
 """
 
+# one liner!
+# print max(list(map((lambda x: sum(map(int, str(x)))) , [a**b for a in range(100) for b in range(100)])))
+
 def sum_digits(number):
     return sum(map(int, str(number)))
 
