@@ -15,7 +15,7 @@ def find_factors(n):
         if n % x == 0:
             factors.append(x)
             
-            if n != x:
+            if n != x and 2*x != n:
                 factors.append(n / x)
         
     return sorted(factors)
