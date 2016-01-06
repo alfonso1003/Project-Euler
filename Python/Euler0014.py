@@ -15,3 +15,20 @@ Which starting number, under one million, produces the longest chain?
 
 NOTE: Once the chain starts the terms are allowed to go above one million.
 """
+
+num_collatz_len_dict = {}
+for x in range(1, 1000001):
+    number = x
+    collatz_sequence = []
+    while number != 1:
+        if number % 2 == 1:
+            number = 3 * number + 1
+        else:
+            number = number / 2
+    
+        collatz_sequence.append(number)
+    
+        num_collatz_len_dict[x] = len(collatz_sequence)
+    
+#print num_collatz_len_dict
+print max(num_collatz_len_dict, key=num_collatz_len_dict.get)
